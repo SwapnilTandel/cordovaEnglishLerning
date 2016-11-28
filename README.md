@@ -1,3 +1,3 @@
 # cordovaEnglishLerning
 
-Its sample Course Excercise for Cordova with jQuery.
+Its a sample Course Excercise for Cordova with jQuery.
