@@ -1,0 +1,4 @@
+            $('#movie-list').append('<li><a href="" data-id="' + 
+                                        row.id + '"><img src="https://img.youtube.com/vi/' + row.videoid + '/0.jpg' + '"/><h3>' + 
+                                        row.title + '</h3><p>' + 
+                                        row.views + '</p></a></li>');

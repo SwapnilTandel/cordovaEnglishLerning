@@ -9,18 +9,41 @@
   <link rel="stylesheet" href="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview.css" />
   <link rel="stylesheet" href="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview-pull.css" />
   <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="data.json"></script>
+
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
   <script src="http://example.gajotres.net/iscrollview/iscroll.js"></script>
   <script src="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview.js"></script>
   <script src="script.js"></script>
+
+  <style>
+.auto-resizable-iframe {
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+  </style>
 </head>
 
 <body>
+
   <div data-role="page" id="home">
     <div data-theme="a" data-role="header">
       <h3>
-            Movie List
+            Course Video List
         </h3>
     </div>
     <div data-role="content">
@@ -31,14 +54,15 @@
       </div>
     </div>
     <div data-theme="a" data-role="footer">
-      <h1>Copyright 2016</h1>
+      <h1>Thaanks to Pebbles Language Learning</h1>
     </div>
   </div>
+
   <div data-role="page" id="headline">
     <div data-theme="a" data-role="header">
       <a href="#home" class="ui-btn-left" data-transition="slide" data-direction="reverse">Back</a>
       <h3>
-            Movie Info
+            Course Video Info
         </h3>
     </div>
     <div data-role="content">
